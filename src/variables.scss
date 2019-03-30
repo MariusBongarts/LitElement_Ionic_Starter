@@ -1,0 +1,12 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+:host {
+  --app-primary-color: #007BFF;
+  --app-error-color: #C5344E;
+  --app-error-info: #14854E;
+}
+
+// Overrides default primary color of bootstrap
+.bg-primary {
+  background-color:--app-primary-color !important;
+}

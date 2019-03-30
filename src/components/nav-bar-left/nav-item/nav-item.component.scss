@@ -1,0 +1,23 @@
+@import "../../../variables.scss";
+
+.nav-item .active {
+  color: var(--app-primary-color);
+}
+
+.nav-item > a {
+  color: grey;
+}
+
+.nav-item > a:hover {
+  color: black;
+  background-color: rgba(0, 123, 255, 0.014);
+  transform: scale(1.01);
+}
+
+#title {
+  color: grey;
+}
+
+.nav-item .active #title {
+  color: var(--app-primary-color);
+}

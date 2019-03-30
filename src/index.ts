@@ -1,0 +1,11 @@
+import './index.scss';
+import './components/app.component.ts';
+import './components/sign-in/sign-in.component.ts';
+import './components/sign-up/sign-up.component.ts';
+import './components/header/header.component.ts';
+import './components/nav-bar-left/navigation/navigation.component.ts';
+import './components/nav-bar-left/nav-item/nav-item.component.ts';
+import './components/shopping-list-page/shopping-list/shopping-list.component.ts';
+import './components/newsfeed-page/newsfeed/newsfeed.component.ts';
+import './components/side-drawer/side-drawer.component.ts';
+import './components/utils/icons/svg-icon.component.ts';
